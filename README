@@ -1,0 +1,16 @@
+A react twitter clone with gulp and jspm
+
+
+To run the react app locally
+
+    npm install
+    npm install jspm
+
+    jspm install react=github:reactjs/react-bower -o "{main: 'react', format: 'global'}" -f
+    jspm install react-nested-router=github:toranb/toranb-react-nested-router
+
+    gulp
+
+    python -m SimpleHTTPServer 3000
+
+    visit http://localhost:3000 to see the running app
