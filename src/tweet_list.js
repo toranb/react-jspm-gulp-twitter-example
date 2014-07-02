@@ -1,3 +1,5 @@
+/** @jsx React.DOM */
+
 import Tweet from './tweet';
 
 var TweetForm = React.createClass({

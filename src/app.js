@@ -1,3 +1,5 @@
+/** @jsx React.DOM */
+
 import React from 'react';
 import ReactRouter from 'react-nested-router';
 

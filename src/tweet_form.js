@@ -1,3 +1,5 @@
+/** @jsx React.DOM */
+
 var TweetForm = React.createClass({
     handleSubmit: function() {
         var content = this.refs.content.getDOMNode().value;

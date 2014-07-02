@@ -1,3 +1,5 @@
+/** @jsx React.DOM */
+
 var Tweet = React.createClass({
     render: function() {
         return (

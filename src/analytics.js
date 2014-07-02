@@ -1,3 +1,5 @@
+/** @jsx React.DOM */
+
 import React from 'react';
 
 var Analytics = React.createClass({

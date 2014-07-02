@@ -3,7 +3,7 @@ var shell = require('gulp-shell');
 var react = require('gulp-react');
 
 gulp.task('jsx', function(){
-    return gulp.src("src/**/*.jsx")
+    return gulp.src("src/**/*.js")
         .pipe(react())
         .pipe(gulp.dest('build'));
 });
